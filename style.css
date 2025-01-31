@@ -1,0 +1,101 @@
+html{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+    
+body {
+    margin: 0;
+    background-color:white;
+}
+
+.texto p {
+    padding: 4rem 4rem;
+    font-size: 3rem;
+}
+
+header h1 {
+    background-color: black ;
+    color:limegreen;
+    padding: 3rem 3rem; 
+    text-align: center;
+    text: "numberto:+573174559752";
+
+
+}
+
+header h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 2rem
+    
+     
+}
+
+header p {
+    font-size: 4rem 4rem;
+    color:black
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+
+}
+
+section article h2, p, ul{
+    transition: box-shadow 0.3s ease ;
+    background-color:white;
+    margin: 1rem 0 ;
+    border-radius: 0.5rem;
+    padding: 0.35rem 0;
+    cursor: pointer;
+}
+
+section article h2, section article p, section article h3, ul {
+    background-color: white;
+    margin:2rem 2rem;
+ 
+}
+
+section article:hover {
+    box-shadow: 0  0.1 rem 0.5 rem rgba (0,0,0,0.4);
+}
+
+h3 {
+      background-color: white;
+      color:limegreen
+
+}
+
+h2 {
+     color: limegreen
+
+}
+
+ footer {
+    background-color: black;
+    padding: 4rem;
+    color: black
+ }
+
+ footer section {
+    float: right;
+    color:black
+ }
+
+ footer p {
+    margin: 0;
+    color: black;
+ }
+
+ footer a {
+    transition: color 0.3s ease;
+    color:white;
+    text-decoration: none; 
+ }
+
+ footer a:hover {
+    color: cornflowerblue;
+ }
